@@ -12,7 +12,8 @@ public class A
         System.out.println( "Hello World!" );
     }
     
-    public static void aa() {
+    @SuppressWarnings("unused")
+	public static void aa() {
     	int a = 1;
     	int b = 2;
     	int c = a + b;
